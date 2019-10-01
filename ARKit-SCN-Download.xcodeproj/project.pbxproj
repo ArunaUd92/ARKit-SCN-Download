@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE29BC9D2342CEBD00DDF05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BC9C2342CEBD00DDF05E /* AppDelegate.swift */; };
+		BE29BC9F2342CEBD00DDF05E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BC9E2342CEBD00DDF05E /* ViewController.swift */; };
+		BE29BCA22342CEBD00DDF05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29BCA02342CEBD00DDF05E /* Main.storyboard */; };
+		BE29BCA42342CEC000DDF05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE29BCA32342CEC000DDF05E /* Assets.xcassets */; };
+		BE29BCA72342CEC000DDF05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29BCA52342CEC000DDF05E /* LaunchScreen.storyboard */; };
+		BE29BCB22342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BCB12342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift */; };
+		BE29BCBD2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BCBC2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE29BCAE2342CEC000DDF05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE29BC912342CEBD00DDF05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE29BC982342CEBD00DDF05E;
+			remoteInfo = "ARKit-SCN-Download";
+		};
+		BE29BCB92342CEC000DDF05E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE29BC912342CEBD00DDF05E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE29BC982342CEBD00DDF05E;
+			remoteInfo = "ARKit-SCN-Download";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE29BC992342CEBD00DDF05E /* ARKit-SCN-Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-SCN-Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE29BC9C2342CEBD00DDF05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE29BC9E2342CEBD00DDF05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE29BCA12342CEBD00DDF05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE29BCA32342CEC000DDF05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE29BCA62342CEC000DDF05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE29BCA82342CEC000DDF05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE29BCAD2342CEC000DDF05E /* ARKit-SCN-DownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-SCN-DownloadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE29BCB12342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_SCN_DownloadTests.swift; sourceTree = "<group>"; };
+		BE29BCB32342CEC000DDF05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE29BCB82342CEC000DDF05E /* ARKit-SCN-DownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-SCN-DownloadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE29BCBC2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_SCN_DownloadUITests.swift; sourceTree = "<group>"; };
+		BE29BCBE2342CEC000DDF05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE29BC962342CEBD00DDF05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCAA2342CEC000DDF05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCB52342CEC000DDF05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE29BC902342CEBD00DDF05E = {
+			isa = PBXGroup;
+			children = (
+				BE29BC9B2342CEBD00DDF05E /* ARKit-SCN-Download */,
+				BE29BCB02342CEC000DDF05E /* ARKit-SCN-DownloadTests */,
+				BE29BCBB2342CEC000DDF05E /* ARKit-SCN-DownloadUITests */,
+				BE29BC9A2342CEBD00DDF05E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE29BC9A2342CEBD00DDF05E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE29BC992342CEBD00DDF05E /* ARKit-SCN-Download.app */,
+				BE29BCAD2342CEC000DDF05E /* ARKit-SCN-DownloadTests.xctest */,
+				BE29BCB82342CEC000DDF05E /* ARKit-SCN-DownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE29BC9B2342CEBD00DDF05E /* ARKit-SCN-Download */ = {
+			isa = PBXGroup;
+			children = (
+				BE29BC9C2342CEBD00DDF05E /* AppDelegate.swift */,
+				BE29BC9E2342CEBD00DDF05E /* ViewController.swift */,
+				BE29BCA02342CEBD00DDF05E /* Main.storyboard */,
+				BE29BCA32342CEC000DDF05E /* Assets.xcassets */,
+				BE29BCA52342CEC000DDF05E /* LaunchScreen.storyboard */,
+				BE29BCA82342CEC000DDF05E /* Info.plist */,
+			);
+			path = "ARKit-SCN-Download";
+			sourceTree = "<group>";
+		};
+		BE29BCB02342CEC000DDF05E /* ARKit-SCN-DownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE29BCB12342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift */,
+				BE29BCB32342CEC000DDF05E /* Info.plist */,
+			);
+			path = "ARKit-SCN-DownloadTests";
+			sourceTree = "<group>";
+		};
+		BE29BCBB2342CEC000DDF05E /* ARKit-SCN-DownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE29BCBC2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift */,
+				BE29BCBE2342CEC000DDF05E /* Info.plist */,
+			);
+			path = "ARKit-SCN-DownloadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE29BC982342CEBD00DDF05E /* ARKit-SCN-Download */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE29BCC12342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-Download" */;
+			buildPhases = (
+				BE29BC952342CEBD00DDF05E /* Sources */,
+				BE29BC962342CEBD00DDF05E /* Frameworks */,
+				BE29BC972342CEBD00DDF05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit-SCN-Download";
+			productName = "ARKit-SCN-Download";
+			productReference = BE29BC992342CEBD00DDF05E /* ARKit-SCN-Download.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE29BCAC2342CEC000DDF05E /* ARKit-SCN-DownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE29BCC42342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-DownloadTests" */;
+			buildPhases = (
+				BE29BCA92342CEC000DDF05E /* Sources */,
+				BE29BCAA2342CEC000DDF05E /* Frameworks */,
+				BE29BCAB2342CEC000DDF05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE29BCAF2342CEC000DDF05E /* PBXTargetDependency */,
+			);
+			name = "ARKit-SCN-DownloadTests";
+			productName = "ARKit-SCN-DownloadTests";
+			productReference = BE29BCAD2342CEC000DDF05E /* ARKit-SCN-DownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE29BCB72342CEC000DDF05E /* ARKit-SCN-DownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE29BCC72342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-DownloadUITests" */;
+			buildPhases = (
+				BE29BCB42342CEC000DDF05E /* Sources */,
+				BE29BCB52342CEC000DDF05E /* Frameworks */,
+				BE29BCB62342CEC000DDF05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE29BCBA2342CEC000DDF05E /* PBXTargetDependency */,
+			);
+			name = "ARKit-SCN-DownloadUITests";
+			productName = "ARKit-SCN-DownloadUITests";
+			productReference = BE29BCB82342CEC000DDF05E /* ARKit-SCN-DownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE29BC912342CEBD00DDF05E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Aruna Udayanga";
+				TargetAttributes = {
+					BE29BC982342CEBD00DDF05E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BE29BCAC2342CEC000DDF05E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BE29BC982342CEBD00DDF05E;
+					};
+					BE29BCB72342CEC000DDF05E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BE29BC982342CEBD00DDF05E;
+					};
+				};
+			};
+			buildConfigurationList = BE29BC942342CEBD00DDF05E /* Build configuration list for PBXProject "ARKit-SCN-Download" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE29BC902342CEBD00DDF05E;
+			productRefGroup = BE29BC9A2342CEBD00DDF05E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE29BC982342CEBD00DDF05E /* ARKit-SCN-Download */,
+				BE29BCAC2342CEC000DDF05E /* ARKit-SCN-DownloadTests */,
+				BE29BCB72342CEC000DDF05E /* ARKit-SCN-DownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE29BC972342CEBD00DDF05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29BCA72342CEC000DDF05E /* LaunchScreen.storyboard in Resources */,
+				BE29BCA42342CEC000DDF05E /* Assets.xcassets in Resources */,
+				BE29BCA22342CEBD00DDF05E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCAB2342CEC000DDF05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCB62342CEC000DDF05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE29BC952342CEBD00DDF05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29BC9F2342CEBD00DDF05E /* ViewController.swift in Sources */,
+				BE29BC9D2342CEBD00DDF05E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCA92342CEC000DDF05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29BCB22342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE29BCB42342CEC000DDF05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE29BCBD2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE29BCAF2342CEC000DDF05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE29BC982342CEBD00DDF05E /* ARKit-SCN-Download */;
+			targetProxy = BE29BCAE2342CEC000DDF05E /* PBXContainerItemProxy */;
+		};
+		BE29BCBA2342CEC000DDF05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE29BC982342CEBD00DDF05E /* ARKit-SCN-Download */;
+			targetProxy = BE29BCB92342CEC000DDF05E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE29BCA02342CEBD00DDF05E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE29BCA12342CEBD00DDF05E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE29BCA52342CEC000DDF05E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE29BCA62342CEC000DDF05E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE29BCBF2342CEC000DDF05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE29BCC02342CEC000DDF05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE29BCC22342CEC000DDF05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-Download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-Download";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE29BCC32342CEC000DDF05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-Download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-Download";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE29BCC52342CEC000DDF05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-DownloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-DownloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-SCN-Download.app/ARKit-SCN-Download";
+			};
+			name = Debug;
+		};
+		BE29BCC62342CEC000DDF05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-DownloadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-DownloadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-SCN-Download.app/ARKit-SCN-Download";
+			};
+			name = Release;
+		};
+		BE29BCC82342CEC000DDF05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-DownloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-DownloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-SCN-Download";
+			};
+			name = Debug;
+		};
+		BE29BCC92342CEC000DDF05E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WWJV9A825Z;
+				INFOPLIST_FILE = "ARKit-SCN-DownloadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ArunaUdayanga.ARKit-SCN-DownloadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-SCN-Download";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE29BC942342CEBD00DDF05E /* Build configuration list for PBXProject "ARKit-SCN-Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29BCBF2342CEC000DDF05E /* Debug */,
+				BE29BCC02342CEC000DDF05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE29BCC12342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29BCC22342CEC000DDF05E /* Debug */,
+				BE29BCC32342CEC000DDF05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE29BCC42342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-DownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29BCC52342CEC000DDF05E /* Debug */,
+				BE29BCC62342CEC000DDF05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE29BCC72342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-DownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE29BCC82342CEC000DDF05E /* Debug */,
+				BE29BCC92342CEC000DDF05E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE29BC912342CEBD00DDF05E /* Project object */;
+}
