@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ARKit-SCN-Download
 //
-//  Created by LAYOUTindex on 10/1/19.
+//  Created by Aruna Udayanga on 10/1/19.
 //  Copyright © 2019 Aruna Udayanga. All rights reserved.
 //
 

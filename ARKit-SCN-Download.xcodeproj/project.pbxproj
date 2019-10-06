@@ -14,6 +14,7 @@
 		BE29BCA72342CEC000DDF05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29BCA52342CEC000DDF05E /* LaunchScreen.storyboard */; };
 		BE29BCB22342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BCB12342CEC000DDF05E /* ARKit_SCN_DownloadTests.swift */; };
 		BE29BCBD2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE29BCBC2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift */; };
+		FE7707E04701FBDAB2FCE6C3 /* Pods_ARKit_SCN_Download.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB1A78B8AF4925DDE6BDB86 /* Pods_ARKit_SCN_Download.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7FFE016CFAFDA54A355CF49E /* Pods-ARKit-SCN-Download.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKit-SCN-Download.release.xcconfig"; path = "Target Support Files/Pods-ARKit-SCN-Download/Pods-ARKit-SCN-Download.release.xcconfig"; sourceTree = "<group>"; };
 		BE29BC992342CEBD00DDF05E /* ARKit-SCN-Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-SCN-Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE29BC9C2342CEBD00DDF05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE29BC9E2342CEBD00DDF05E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		BE29BCB82342CEC000DDF05E /* ARKit-SCN-DownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-SCN-DownloadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE29BCBC2342CEC000DDF05E /* ARKit_SCN_DownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_SCN_DownloadUITests.swift; sourceTree = "<group>"; };
 		BE29BCBE2342CEC000DDF05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29957A4053F4CF3FC0813EC /* Pods-ARKit-SCN-Download.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKit-SCN-Download.debug.xcconfig"; path = "Target Support Files/Pods-ARKit-SCN-Download/Pods-ARKit-SCN-Download.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB1A78B8AF4925DDE6BDB86 /* Pods_ARKit_SCN_Download.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKit_SCN_Download.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7707E04701FBDAB2FCE6C3 /* Pods_ARKit_SCN_Download.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		926B8D05F28B06FCB7403D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1A78B8AF4925DDE6BDB86 /* Pods_ARKit_SCN_Download.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE29BC902342CEBD00DDF05E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				BE29BCB02342CEC000DDF05E /* ARKit-SCN-DownloadTests */,
 				BE29BCBB2342CEC000DDF05E /* ARKit-SCN-DownloadUITests */,
 				BE29BC9A2342CEBD00DDF05E /* Products */,
+				D7BE07B0768FA6883F6F3BA4 /* Pods */,
+				926B8D05F28B06FCB7403D9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,16 @@
 			path = "ARKit-SCN-DownloadUITests";
 			sourceTree = "<group>";
 		};
+		D7BE07B0768FA6883F6F3BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C29957A4053F4CF3FC0813EC /* Pods-ARKit-SCN-Download.debug.xcconfig */,
+				7FFE016CFAFDA54A355CF49E /* Pods-ARKit-SCN-Download.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE29BCC12342CEC000DDF05E /* Build configuration list for PBXNativeTarget "ARKit-SCN-Download" */;
 			buildPhases = (
+				F694DE91F2338BD71B55DB78 /* [CP] Check Pods Manifest.lock */,
 				BE29BC952342CEBD00DDF05E /* Sources */,
 				BE29BC962342CEBD00DDF05E /* Frameworks */,
 				BE29BC972342CEBD00DDF05E /* Resources */,
+				B0B33D9F3EB028BA2388F78B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0B33D9F3EB028BA2388F78B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARKit-SCN-Download/Pods-ARKit-SCN-Download-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARKit-SCN-Download/Pods-ARKit-SCN-Download-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F694DE91F2338BD71B55DB78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKit-SCN-Download-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE29BC952342CEBD00DDF05E /* Sources */ = {
@@ -430,10 +510,11 @@
 		};
 		BE29BCC22342CEC000DDF05E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29957A4053F4CF3FC0813EC /* Pods-ARKit-SCN-Download.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WWJV9A825Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ARKit-SCN-Download/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +529,11 @@
 		};
 		BE29BCC32342CEC000DDF05E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFE016CFAFDA54A355CF49E /* Pods-ARKit-SCN-Download.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WWJV9A825Z;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ARKit-SCN-Download/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
